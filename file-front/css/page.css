@@ -1,0 +1,32 @@
+.app{
+    padding: auto;
+    margin-top: 5%;
+}
+
+body{
+    background-color:#151515 !important;
+    align-items: center;
+    text-align: center;
+}
+
+.vass { 
+    color: #53caff;
+    opacity: .7;
+    font-size: 60px;
+    margin: auto;
+}
+
+.container{
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    width: 600px ;
+    margin-left: 20%;
+}
+
+section p {
+    font-size: 17px;
+    font-weight: 500;
+    font-style:italic;
+}

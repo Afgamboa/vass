@@ -1,0 +1,103 @@
+.chat-container {
+    background-color: rgb(250, 240, 240);
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    margin-top: 10%;
+    border: 3px solid;
+    border-color: black;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 8px 5px 3px rgba(202, 199, 199, 0.5);
+}
+
+selector {
+    box-shadow: h-shadow v-shadow blur spread color;
+}
+
+body {
+    background-color: rgb(16, 33, 48) !important;
+}
+
+.actions input {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.btn {
+    background: rgb(191, 230, 120) !important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+.title {
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.actions {
+    margin-top: 6%;
+}
+
+.chat-messages {
+    margin-top: 50px;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 8px 5px 3px rgba(202, 199, 199, 0.5);
+    border: none;
+    background-color: rgb(250, 240, 240);
+
+}
+
+.typing {
+    background-color: beige;
+    height: 50px;
+    text-align: inherit;
+    font-weight: 300;
+    border-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list-message {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    border: 0.5px solid black;
+    margin-top: 20px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.userMsg {
+    background-color: #fff;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.userMsg label {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+}
+
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: auto;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(16, 33, 48);
+}
